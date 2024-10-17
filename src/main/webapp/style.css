@@ -1,0 +1,81 @@
+/*Centralizar o título*/
+body {
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #4CAF50; 
+    font-size: 24px;
+    text-align: center;
+}
+
+/*Label para a cor azul e negrito*/
+.label-azul-negrito {
+	color: blue;
+	font-weight: bold;
+}
+
+.btn-arredondado {
+    background-color: #008CBA; /* Cor de fundo azul */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px; /* Bordas arredondadas */
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Botão quando o mouse passa por cima */
+.btn-arredondado:hover {
+    background-color: #005f73;
+}
+
+/* Link voltar estilizado */
+a {
+    text-decoration: none;
+    color: #008CBA;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #005f73;
+    text-decoration: underline;
+}
+
+
+/*Centraliza o cabeçalho*/
+table th {
+	text-align: center;
+}
+
+/*Alinha os nomes à esquerda*/
+table td:first-child{
+	text-align: left;
+}
+
+/*Matriculas a direita*/
+table td:last-child{
+	text-align: right;
+}
+
+/*Borda na tabela para melhor visualização*/
+table {
+	width: 50%;
+	margin: auto;
+	border-collapse: 8px;
+}
+
+table th, table td{
+	border: 1px solid black;
+	padding: 8px;
+}
+
+.imagem-piramide {
+	widows: 300px;
+	height: auto;
+	opacity: 0.8;
+	filter: brightness(120%);
+	border-radius: 10px;
+}
+
+
